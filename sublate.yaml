@@ -1,3 +1,4 @@
-sublate:
-  path: theme
-  data: colors
+- data: "colors"
+- sublate: 
+    src: "themes"
+    dst: "build"

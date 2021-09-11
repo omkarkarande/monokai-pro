@@ -1,6 +1,9 @@
-sublate:
-  path: .
-  render:
-    - resources/schemes/*.xml
-    - src/*.json
-  remove: templates
+- for: "theme in themes"
+  do:
+    - render: "templates/theme.json"
+    - output: "src/{{id}}.theme.json"
+- for: "theme in themes"
+  do:
+    - render: "templates/scheme.xml"
+    - output: "resources/schemes/{{id}}.xml"
+- remove: templates
