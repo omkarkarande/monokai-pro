@@ -3,21 +3,21 @@ spectrum:
   name: Monokai Pro (Filter Spectrum)
   colors:
     # primary colors
-    red: fc618d
-    orange: fd9353
-    yellow: fce566
-    green: 7bd88f
-    blue: 5ad4e6
-    purple: 948ae3
+    red: "#fc618d"
+    orange: "#fd9353"
+    yellow: "#fce566"
+    green: "#7bd88f"
+    blue: "#5ad4e6"
+    purple: "#948ae3"
     # base colors
-    base0: 161616
-    base1: 161616
-    base2: 161616
-    base3: 222222
-    base4: 525053
-    base5: 69676c
-    base6: 8b888f
-    base7: bab6c0
-    base8: f7f1ff
+    base0: "#161616"
+    base1: "#161616"
+    base2: "#161616"
+    base3: "#222222"
+    base4: "#525053"
+    base5: "#69676c"
+    base6: "#8b888f"
+    base7: "#bab6c0"
+    base8: "#f7f1ff"
     # variants
-    base8x0c: 161616
+    base8x0c: "#161616"
